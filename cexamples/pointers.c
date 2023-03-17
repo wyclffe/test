@@ -7,9 +7,9 @@ int main ()
 	pa = &a;
 	/* ponted the pointer to element 0 of the a array to have the first value of the array
 	 */
-
+    *pa = 24;
 	int x = *pa;
-	int i;
-	printf("%d",a[0]);
+
+	printf("%d",x+1);
 
 }
